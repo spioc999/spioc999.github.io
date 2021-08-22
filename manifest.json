@@ -1,11 +1,11 @@
 {
-    "name": "spioc_website",
-    "short_name": "spioc_website",
+    "name": "Simone Pio Caronia",
+    "short_name": "Simone Pio Caronia",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "My portfolio website made with Flutter!",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
