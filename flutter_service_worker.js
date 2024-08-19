@@ -3,13 +3,14 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "a2584f48b7c21225188f8903b5968d40",
+const RESOURCES = {"flutter_bootstrap.js": "000f639bc2c08e49677a93da7cc1e2c3",
 "version.json": "0c408281055827bfc51b92fd524c1294",
 "index.html": "b8ec8e366ceabcda0cfae5d980f65ed7",
 "/": "b8ec8e366ceabcda0cfae5d980f65ed7",
-"main.dart.js": "1f0e6d7e3a842861eff2c7ef26113b94",
+"main.dart.js": "7e294dd0bde7bbc9f346e7d22e214bb1",
 "flutter.js": "f31737fb005cd3a3c6bd9355efd33061",
 "favicon.png": "1316c1bf9f7d91b8db53e687637b8558",
+"main.dart.mjs": "f790ca193bf38a6dff5c715bb9c2032b",
 "icons/favicon-16x16.png": "1316c1bf9f7d91b8db53e687637b8558",
 "icons/apple-icon-144x144.png": "0c318743325e95b53639d8eef9c1e7ff",
 "icons/android-icon-192x192.png": "09db1805c73100f161df1b44f75ceecb",
@@ -29,6 +30,7 @@ const RESOURCES = {"flutter_bootstrap.js": "a2584f48b7c21225188f8903b5968d40",
 "icons/apple-icon-120x120.png": "a80a10180b88e80e2ff6261f4d04f504",
 "icons/favicon-32x32.png": "1575bf028450a46063bf5ed6fa0c97ac",
 "manifest.json": "3307f4d7eda70fb9019c848ea0e502af",
+"main.dart.wasm": "e94aae74971287645b863197418a78fc",
 "assets/AssetManifest.json": "d211a338e518803233e53f0b1ccc8421",
 "assets/NOTICES": "7b7006cd10314619b72f0bcd9a999b3c",
 "assets/FontManifest.json": "1413675f106dfd34de02085b097a7f83",
@@ -73,6 +75,8 @@ const RESOURCES = {"flutter_bootstrap.js": "a2584f48b7c21225188f8903b5968d40",
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
+"main.dart.wasm",
+"main.dart.mjs",
 "index.html",
 "flutter_bootstrap.js",
 "assets/AssetManifest.bin.json",
