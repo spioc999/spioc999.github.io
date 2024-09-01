@@ -9,14 +9,28 @@ if (!window._flutter) {
 _flutter.buildConfig = {"engineRevision":"c9b9d5780da342eb3f0f5e439a7db06f7d112575","builds":[{"compileTarget":"dart2wasm","renderer":"skwasm","mainWasmPath":"main.dart.wasm","jsSupportRuntimePath":"main.dart.mjs"},{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"}]};
 
 
-// Manipulate the DOM to add a loading spinner will be rendered with this HTML:
+// Manipulate the DOM to add a themed loader:
 // <div class="loading">
 //   <div class="loader" />
 // </div>
-const mode = window.localStorage.getItem("flutter.themeMode") || "dark"
-const isDarkMode = mode === "dark"
 
-document.body.className = isDarkMode ? "dark-background" : "light-background";
+function getIsDarkMode() {
+  const _dark = "dark";
+
+  const modeFromStorage = window.localStorage.getItem("flutter.themeMode");
+  let mode;
+  if(modeFromStorage){
+    mode = JSON.parse(modeFromStorage);
+  } else{
+    mode = _dark;
+  }
+
+  return mode == _dark;
+}
+
+const isDarkMode = getIsDarkMode();
+
+document.body.style.backgroundColor = isDarkMode ? "#131317" : "#FFF";
 
 const loadingDiv = document.createElement('div');
 loadingDiv.className = "loading";
