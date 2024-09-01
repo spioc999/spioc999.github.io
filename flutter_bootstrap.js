@@ -9,8 +9,32 @@ if (!window._flutter) {
 _flutter.buildConfig = {"engineRevision":"c9b9d5780da342eb3f0f5e439a7db06f7d112575","builds":[{"compileTarget":"dart2wasm","renderer":"skwasm","mainWasmPath":"main.dart.wasm","jsSupportRuntimePath":"main.dart.mjs"},{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"}]};
 
 
+// Manipulate the DOM to add a loading spinner will be rendered with this HTML:
+// <div class="loading">
+//   <div class="loader" />
+// </div>
+const mode = window.localStorage.getItem("flutter.themeMode") || "dark"
+const isDarkMode = mode === "dark"
+
+document.body.className = isDarkMode ? "dark-background" : "light-background";
+
+const loadingDiv = document.createElement('div');
+loadingDiv.className = "loading";
+document.body.appendChild(loadingDiv);
+
+const loaderDiv = document.createElement('div');
+loaderDiv.className = isDarkMode ? "light-loader" : "dark-loader";
+loadingDiv.appendChild(loaderDiv);
+
+// Customize the app initialization process
 _flutter.loader.load({
-  serviceWorkerSettings: {
-    serviceWorkerVersion: "2036617665"
+  onEntrypointLoaded: async function(engineInitializer) {
+    const appRunner = await engineInitializer.initializeEngine();
+
+    // Remove the loading div when the app runner is ready
+    if (document.body.contains(loadingDiv)) {
+      document.body.removeChild(loadingDiv);
+    }
+    await appRunner.runApp();
   }
 });
