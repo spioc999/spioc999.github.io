@@ -26325,13 +26325,13 @@ this.a=b},
 a3E:function a3E(a){this.a=a},
 aP2(){return new A.m4(A.a([],t.I9),A.a([],t.c6),A.a([],t.C9),A.a([],t.th),A.a([],t.Pi))},
 m4:function m4(a,b,c,d,e){var _=this
-_.r=_.f=_.e=_.d=_.c=$
-_.w=a
-_.x=b
-_.y=c
-_.z=d
-_.Q=null
-_.as=e},
+_.f=_.e=_.d=_.c=$
+_.r=a
+_.w=b
+_.x=c
+_.y=d
+_.z=null
+_.Q=e},
 aE8(a){return new A.kg(new A.V2(null,null),a)},
 kg:function kg(a,b){this.c=a
 this.a=b},
@@ -79831,7 +79831,7 @@ gqp(){return"Rome"},
 gHN(){return"Dublin"},
 gHS(){return"Sicily"},
 gE3(){return"About me"},
-Re(a,b,c){return"Hello\ud83d\udc4b! My name is "+A.m(a)+", I am "+A.m(c)+" years old and I work as a "+A.m(b)+". I describe myself as a very determined person who always wants to learn new things and try to understand all their aspects.\nMy passion for technology was born in my beloved homeland, the beautiful Sicily. In addition to technology, I am a great enthusiast of sports and music, which hold a special place in my life.\nMy experiences abroad have been very important, enriching my cultural and professional background, allowing me to grow significantly. The friendships I have formed over the years have had a significant impact on me, teaching me the value of diversity and collaboration."},
+Re(a,b){return"Hello\ud83d\udc4b! My name is "+A.m(a)+", I am "+A.m(b)+" years old and I work as a Mobile Engineer, also focusing on AI projects. I describe myself as a very determined person who always wants to learn new things and try to understand all their aspects.\nMy passion for technology was born when I was a child in my beloved homeland, the beautiful Sicily. In addition to technology, I am a great enthusiast of sports and music, which hold a special place in my life.\nMy experiences abroad have been very important, enriching my cultural and professional background, allowing me to grow significantly. The friendships I have formed over the years have had a significant impact on me, teaching me the value of diversity and collaboration."},
 gRv(){return"PS: Today it's my birthday, let's celebrate!\ud83c\udf89"},
 gRu(){return"Intro"},
 gRz(){return"Tech Stack"},
@@ -79906,7 +79906,7 @@ gqp(){return"Roma"},
 gHN(){return"Dublino"},
 gHS(){return"Sicilia"},
 gE3(){return"Chi sono"},
-Re(a,b,c){return"Ciao\ud83d\udc4b! Mi chiamo "+A.m(a)+", ho "+A.m(c)+" anni e lavoro come "+A.m(b)+". Mi descrivo come una persona molto determinata, che vuole sempre imparare cose nuove e cercare di capirne tutti gli aspetti.\nLa mia passione per la tecnologia \xe8 nata nella mia amata terra natale, la splendida Sicilia. Oltre alla tecnologia, sono un grande appassionato di sport e musica, che occupano un posto speciale nella mia vita.\nMolto importanti sono state le mie esperienze all'estero, che hanno arricchito il mio bagaglio culturale e professionale, permettendomi di crescere notevolmente. Le amicizie strette durante gli anni hanno avuto un impatto significativo su di me, insegnandomi il valore della diversit\xe0 e della collaborazione."},
+Re(a,b){return"Ciao\ud83d\udc4b! Mi chiamo "+A.m(a)+", ho "+A.m(b)+" anni e lavoro come Mobile Engineer, dedicandomi anche a progetti AI. Mi descrivo come una persona molto determinata, che vuole sempre imparare cose nuove e cercare di capirne tutti gli aspetti.\nLa mia passione per la tecnologia \xe8 nata quando ero bambino nella mia amata terra natale, la splendida Sicilia. Oltre alla tecnologia, sono un grande appassionato di sport e musica, che occupano un posto speciale nella mia vita.\nMolto importanti sono state le mie esperienze all'estero, che hanno arricchito il mio bagaglio culturale e professionale, permettendomi di crescere notevolmente. Le amicizie strette durante gli anni hanno avuto un impatto significativo su di me, insegnandomi il valore della diversit\xe0 e della collaborazione."},
 gRv(){return"PS: Oggi \xe8 il mio compleanno, festeggiamo!\ud83c\udf89"},
 gRu(){return"Intro"},
 gRz(){return"Tecnologie"},
@@ -86402,7 +86402,7 @@ $S:2}
 A.tA.prototype={}
 A.afx.prototype={}
 A.azk.prototype={
-$2(a,b){return a.Re(b.i(0,"firstName"),b.i(0,"role"),b.i(0,"yearsOld"))},
+$2(a,b){return a.Re(b.i(0,"firstName"),b.i(0,"yearsOld"))},
 $S:586}
 A.ayz.prototype={
 $1(a){return a.gRo()},
@@ -86465,7 +86465,7 @@ A.ayJ.prototype={
 $1(a){return a.gRi()},
 $S:2}
 A.ayO.prototype={
-$1(a){return"Flutter & AI Engineer"},
+$1(a){return"Mobile Frontend Engineer | AI"},
 $S:2}
 A.ayL.prototype={
 $1(a){return a.gTI()},
@@ -86989,7 +86989,7 @@ q=q==null?s:q.r
 return A.aA4(A.mz(a.a,s,s,q),A.bu(a.b,1,B.aQ,s,s),A.ho(r))},
 $S:601}
 A.m4.prototype={
-gam1(){var s=this.f
+gam1(){var s=this.e
 s===$&&A.b()
 return s},
 am2(a,b){return this.gam1().$2(a,b)}}
@@ -87006,65 +87006,63 @@ s.N$=$.ao()
 s.Y$=0
 this.Jz()}}
 A.anS.prototype={
-$3(a,b,c){var s,r,q,p,o,n,m=null,l=this.a,k=l.c
-k.toString
+$3(a,b,c){var s,r,q,p,o,n=null,m=this.a,l=m.c
+l.toString
 s=t.A
-k=A.Mf(A.bu(A.bo(k,B.D,s).gE3(),m,m,A.Bv(a),B.aC),B.dk)
-r=l.d
+l=A.Mf(A.bu(A.bo(l,B.D,s).gE3(),n,n,A.Bv(a),B.aC),B.dk)
+r=m.d
 r===$&&A.b()
 r=r.b
 r===$&&A.b()
-q=A.k(l).h("cA.S")
+q=A.k(m).h("cA.S")
 q.a(r)
-p=l.c
+p=m.c
 p.toString
 s=A.bo(p,B.D,s)
 s.toString
-p=l.d.b
+p=m.d.b
 p===$&&A.b()
 q.a(p)
 o=p.c
 o===$&&A.b()
-n=p.d
-n===$&&A.b()
-p=p.e
+p=p.d
 p===$&&A.b()
-p=r.am2(s,A.aI(["firstName",o,"role",n,"yearsOld",p],t.N,t.z))
-n=l.d.b
-n===$&&A.b()
-n=q.a(n).r
-n===$&&A.b()
-o=t.p
-n=A.a([new A.df(B.K,m,m,k,m),B.er,new A.I4(p,n,b.ganu(),B.abV)],o)
-k=l.d.b
-k===$&&A.b()
-k=q.a(k).w
-if(k.length!==0)n.push(new A.I7(k,B.abZ))
-k=l.d.b
-k===$&&A.b()
-k=q.a(k).x
-if(k.length!==0)n.push(new A.I6(k,B.abY))
-k=l.d.b
-k===$&&A.b()
-k=q.a(k).y
-if(k.length!==0)n.push(new A.I3(k,B.abU))
-k=l.d.b
-k===$&&A.b()
-q.a(k)
-s=k.z
-if(s.length!==0)n.push(new A.I5(s,b.gzc(),k.Q,B.abX))
-k=l.d.b
-k===$&&A.b()
-k=q.a(k).as
-if(k.length!==0)n.push(new A.I2(k,B.abT))
-k=A.a([A.dv(n,B.at,B.T,B.am)],o)
-s=l.d.b
-s===$&&A.b()
-s=q.a(s).r
-s===$&&A.b()
-if(s){l=l.y
+p=r.am2(s,A.aI(["firstName",o,"yearsOld",p],t.N,t.z))
+o=m.d.b
+o===$&&A.b()
+o=q.a(o).f
+o===$&&A.b()
+s=t.p
+o=A.a([new A.df(B.K,n,n,l,n),B.er,new A.I4(p,o,b.ganu(),B.abV)],s)
+l=m.d.b
 l===$&&A.b()
-k.push(new A.df(B.K,m,m,new A.y7(l,B.mT,m),m))}return new A.eO(A.jJ(B.cd,k,B.a1,B.c7,m),m)},
+l=q.a(l).r
+if(l.length!==0)o.push(new A.I7(l,B.abZ))
+l=m.d.b
+l===$&&A.b()
+l=q.a(l).w
+if(l.length!==0)o.push(new A.I6(l,B.abY))
+l=m.d.b
+l===$&&A.b()
+l=q.a(l).x
+if(l.length!==0)o.push(new A.I3(l,B.abU))
+l=m.d.b
+l===$&&A.b()
+q.a(l)
+r=l.y
+if(r.length!==0)o.push(new A.I5(r,b.gzc(),l.z,B.abX))
+l=m.d.b
+l===$&&A.b()
+l=q.a(l).Q
+if(l.length!==0)o.push(new A.I2(l,B.abT))
+l=A.a([A.dv(o,B.at,B.T,B.am)],s)
+s=m.d.b
+s===$&&A.b()
+s=q.a(s).f
+s===$&&A.b()
+if(s){m=m.y
+m===$&&A.b()
+l.push(new A.df(B.K,n,n,new A.y7(m,B.mT,n),n))}return new A.eO(A.jJ(B.cd,l,B.a1,B.c7,n),n)},
 $S:602}
 A.ot.prototype={
 pZ(){var s,r,q,p,o,n=this
@@ -87073,22 +87071,21 @@ s=n.b
 s===$&&A.b()
 r=n.x.a.a
 s.c=r.b
-s.d=r.d
 q=r.r
-s.e=B.e.cu(B.e.cu(new A.cB(Date.now(),0,!1).im(q).a,864e8),365)
+s.d=B.e.cu(B.e.cu(new A.cB(Date.now(),0,!1).im(q).a,864e8),365)
 s=n.b
 p=new A.cB(Date.now(),0,!1)
-s.r=A.hl(p)===A.hl(q)&&A.AV(p)===A.AV(q)
+s.f=A.hl(p)===A.hl(q)&&A.AV(p)===A.AV(q)
 o=r.x
 s=n.b
-s.f=o.a
-B.b.K(s.w,o.b)
-B.b.K(n.b.x,o.c)
-B.b.K(n.b.y,o.d)
-B.b.K(n.b.z,o.e)
+s.e=o.a
+B.b.K(s.r,o.b)
+B.b.K(n.b.w,o.c)
+B.b.K(n.b.x,o.d)
+B.b.K(n.b.y,o.e)
 s=n.b
-s.Q=r.f
-B.b.K(s.as,o.f)},
+s.z=r.f
+B.b.K(s.Q,o.f)},
 anv(){var s=this.a
 s===$&&A.b()
 s=s.y
@@ -95354,7 +95351,7 @@ e=A.LV(new A.azc(),new A.azd(),A.d6(2021,7,1,0,0,0,0),new A.aze(),new A.azf(),"a
 o=A.d6(2016,9,1,0,0,0,0)
 o=A.LV(new A.azg(),new A.azh(),A.d6(2017,2,1,0,0,0,0),m,new A.azj(),"assets/imgs/education_torquay.jpg","https://www.st-cuthbertmayne.co.uk/",o)
 n=A.d6(2013,9,1,0,0,0,0)
-return new A.afx("SPC","Simone Pio","Caronia","Flutter & AI Engineer",g,"https://github.com/spioc999?tab=repositories",f,d,new A.a3D(new A.azk(),c,b,a,a2,a0),A.a([q,a3,e,o,A.LV(new A.azl(),new A.azm(),A.d6(h,7,1,0,0,0,0),new A.azn(),new A.azo(),"assets/imgs/education_itis.jpg","https://www.isdavincitorre.edu.it/",n)],t.U9),a1,p)})
+return new A.afx("SPC","Simone Pio","Caronia","Mobile & AI Engineer",g,"https://github.com/spioc999?tab=repositories",f,d,new A.a3D(new A.azk(),c,b,a,a2,a0),A.a([q,a3,e,o,A.LV(new A.azl(),new A.azm(),A.d6(h,7,1,0,0,0,0),new A.azn(),new A.azo(),"assets/imgs/education_itis.jpg","https://www.isdavincitorre.edu.it/",n)],t.U9),a1,p)})
 s($,"b1q","azF",()=>A.aPf())
 s($,"b5C","aOu",()=>A.aT4(A.a([137,80,78,71,13,10,26,10,0,0,0,13,73,72,68,82,0,0,0,1,0,0,0,1,8,6,0,0,0,31,21,196,137,0,0,0,10,73,68,65,84,120,156,99,0,1,0,0,5,0,1,13,10,45,180,0,0,0,0,73,69,78,68,174,66,96,130],t.t)))
 s($,"b35","aDq",()=>new A.z())
