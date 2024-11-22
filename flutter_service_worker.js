@@ -71,7 +71,7 @@ const RESOURCES = {"flutter.js": "f393d3c16b631f36852323de8e583132",
 "icons/apple-icon-152x152.png": "8712f958cd2d0052b72dac251479e495",
 "icons/favicon-96x96.png": "c28d23d22c1d2abdeb901864ba53f298",
 "favicon.png": "1316c1bf9f7d91b8db53e687637b8558",
-"version.json": "8cb7ab061d2ef80de5251d2733aa60e1",
+"version.json": "b9ea01ff425905d69673064c78bf2fb3",
 "flutter_bootstrap.js": "d00580e43e2fff97dd834fe2687ad1d9"};
 // The application shell files that are downloaded before a service worker can
 // start.
